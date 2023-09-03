@@ -48,6 +48,7 @@ def store_data(data):
     except sqlite3.Error as e:
         print(f"Error storing data in the database: {e}")
 
+
 # Main function to run the program
 def main():
     initialize_database()
