@@ -17,6 +17,7 @@ def fetch_data():
         print(f"Error fetching data from the API: {e}")
         return []
 
+
 # Function to create and initialize a SQLite database
 def initialize_database():
     try:
