@@ -35,6 +35,7 @@ def initialize_database():
     except sqlite3.Error as e:
         print(f"Error initializing the database: {e}")
 
+
 # Function to store data in the database
 def store_data(data):
     try:
