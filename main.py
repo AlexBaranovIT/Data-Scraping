@@ -6,6 +6,7 @@ import sqlite3
 API_BASE_URL = "https://api.example.com"
 DB_FILE = "data.db"
 
+
 # Function to fetch data from the API
 def fetch_data():
     try:
